@@ -39,4 +39,4 @@ You can get more info at [developer.chrome.com](https://developer.chrome.com/doc
     ```
     The extension will be reloaded automatically as you make changes.
 
-> If found any issue write it down it `issue` or found useful then give star to it.
+> If found any issue *write it down* it `issue` or found useful then *give star* to it.
