@@ -6,6 +6,8 @@ This repo is for Chrome Extension Side panel Boilerplate with **React**, **React
 
 You can get more info at [developer.chrome.com](https://developer.chrome.com/docs/extensions).
 
+For popup boilerplate visit [github.com/01kartic/Chrome-Extension-Popup-Boilerplate](https://github.com/01kartic/Chrome-Extension-Popup-Boilerplate/)
+
 ### Installation
 
 1. **Clone the Repository**
