@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Extension Side panel Boilerplate",
+  "name": "Chrome Extension Side panel Boilerplate TypeScript",
   "version": "1.0",
-  "description": "Chrome Extension Side panel Boilerplate with React, React-router and Tailwind CSS",
+  "description": "Chrome Extension Side panel Boilerplate with React, React-router and Tailwind CSS TypeScript",
   "icons": {
     "16": "icon.png",
     "32": "icon.png",

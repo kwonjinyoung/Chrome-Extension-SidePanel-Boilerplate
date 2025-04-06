@@ -12,8 +12,8 @@ For popup boilerplate visit [github.com/01kartic/Chrome-Extension-Popup-Boilerpl
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/01kartic/chrome-extension-sidepanel-boilerplate.git
-    cd chrome-extension-sidepanel-boilerplate
+    git clone https://github.com/Mineru98/Chrome-Extension-SidePanel-Boilerplate
+    cd Chrome-Extension-SidePanel-Boilerplate
     ```
     or
     ```
@@ -24,18 +24,22 @@ For popup boilerplate visit [github.com/01kartic/Chrome-Extension-Popup-Boilerpl
     ```bash
     npm install
     ```
+3. **Start Web**
+    ```bash
+    npm run dev
+    ```
 
-3. **Build the Extension**
+4. **Build the Extension**
     ```bash
     npm run build
     ```
 
-4. **Load the Extension into Chrome**
+5. **Load the Extension into Chrome**
     - Open Chrome and go to `chrome://extensions/`.
     - Enable "**Developer mode**" by toggling the switch in the top right corner.
     - Click "Load unpacked" and select the `dist` folder inside your project directory.
 
-5. **Start Developing**
+6. **Start Developing**
     ```bash
     npm run start
     ```

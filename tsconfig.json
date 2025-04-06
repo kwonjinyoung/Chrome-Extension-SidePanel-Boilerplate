@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    /* 기본 옵션 */
+    "target": "es6",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "out",
+    "declaration": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "jsx": "react-jsx",
+    "noEmit": false,
+    "isolatedModules": true,
+    "incremental": true,
+
+    /* 타입유형 검사 옵션 */
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+
+    /* 추가 검사 옵션 */
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+
+    /* 고급 옵션 */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* 모듈 분석 옵션 */
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@providers/*": ["./src/providers/*"],
+      "@helpers/*": ["./src/helpers/*"],
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types/*.d.ts"],
+  "exclude": [
+    "./out/**/*",
+    "./node_modules/**/*",
+    "cypress/**/*.ts",
+    "next.config.js",
+    "commitlint.config.js"
+  ]
+}

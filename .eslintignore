@@ -1,0 +1,9 @@
+node_modules
+out
+dist
+build
+*.json
+postcss.config.js
+tailwind.config.js
+public
+webpack.config.js
