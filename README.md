@@ -240,7 +240,7 @@ function handler(_event: Event) {}
 
 더 많은 정보는 [developer.chrome.com](https://developer.chrome.com/docs/extensions)에서 확인할 수 있습니다.
 
-팝업 확장 보일러플레이트는 [github.com/01kartic/Chrome-Extension-Popup-Boilerplate](https://github.com/01kartic/Chrome-Extension-Popup-Boilerplate)에서 확인하세요.
+팝업 확장 보일러플레이트는 [github.com/Mineru98/Chrome-Extension-SidePanel-Boilerplate](https://github.com/Mineru98/Chrome-Extension-SidePanel-Boilerplate)에서 확인하세요.
 
 ### 설치 방법
 
