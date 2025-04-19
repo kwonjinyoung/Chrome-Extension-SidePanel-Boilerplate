@@ -1,3 +1,7 @@
+/**
+ * 관련 기획서:
+ * - /기획/UI컴포넌트_기획.md
+ */
 import styled from 'styled-components';
 
 export const Container = styled.div`

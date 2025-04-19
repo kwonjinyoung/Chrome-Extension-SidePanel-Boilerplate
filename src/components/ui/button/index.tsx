@@ -1,3 +1,7 @@
+/**
+ * 관련 기획서:
+ * - /기획/UI컴포넌트_기획.md
+ */
 import { cn } from '@helpers/cn';
 import { Slot } from '@radix-ui/react-slot';
 import { cva, type VariantProps } from 'class-variance-authority';

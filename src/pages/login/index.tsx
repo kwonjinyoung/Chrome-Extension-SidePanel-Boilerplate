@@ -1,10 +1,15 @@
+/**
+ * 관련 기획서:
+ * - /기획/라우팅_기획.md
+ * - /기획/프로젝트_메인기획.md
+ */
 import Header from '@components/common/header';
 import { useNavigate } from 'react-router-dom';
 
 function LoginPage(): JSX.Element {
   const navigate = useNavigate();
 
-  const handleLogin = () => {
+  const handleLogin = (): void => {
     navigate('/home');
   };
 
@@ -22,6 +27,7 @@ function LoginPage(): JSX.Element {
           </p>
           <div className="p-6 rounded-lg mb-4">
             <button
+              type="button"
               onClick={handleLogin}
               className="w-full py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded"
             >

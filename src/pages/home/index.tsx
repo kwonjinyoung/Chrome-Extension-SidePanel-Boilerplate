@@ -1,3 +1,9 @@
+/**
+ * 관련 기획서:
+ * - /기획/라우팅_기획.md
+ * - /기획/프로젝트_메인기획.md
+ * - /기획/UI컴포넌트_기획.md
+ */
 import Footer from '@components/common/footer';
 import Header from '@components/common/header';
 
@@ -80,8 +86,8 @@ function HomePage(): JSX.Element {
         </section>
 
         <section className="mb-8 md:mb-12 bg-white rounded-2xl shadow-xl p-5 md:p-8 overflow-hidden relative">
-          <div className="absolute top-0 right-0 w-32 md:w-64 h-32 md:h-64 bg-yellow-300 rounded-full -mr-8 md:-mr-16 -mt-8 md:-mt-16 opacity-20"></div>
-          <div className="absolute bottom-0 left-0 w-24 md:w-48 h-24 md:h-48 bg-blue-300 rounded-full -ml-6 md:-ml-12 -mb-6 md:-mb-12 opacity-20"></div>
+          <div className="absolute top-0 right-0 w-32 md:w-64 h-32 md:h-64 bg-yellow-300 rounded-full -mr-8 md:-mr-16 -mt-8 md:-mt-16 opacity-20" />
+          <div className="absolute bottom-0 left-0 w-24 md:w-48 h-24 md:h-48 bg-blue-300 rounded-full -ml-6 md:-ml-12 -mb-6 md:-mb-12 opacity-20" />
 
           <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-gray-800 relative z-10">
             고객 후기
@@ -118,10 +124,16 @@ function HomePage(): JSX.Element {
             30일 무료 체험 기회를 놓치지 마세요!
           </p>
           <div className="flex flex-col gap-3 justify-center">
-            <button className="px-6 py-3 md:px-8 md:py-4 bg-yellow-400 text-indigo-900 rounded-full text-lg md:text-xl font-bold shadow-lg hover:bg-yellow-300 hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+            <button
+              type="button"
+              className="px-6 py-3 md:px-8 md:py-4 bg-yellow-400 text-indigo-900 rounded-full text-lg md:text-xl font-bold shadow-lg hover:bg-yellow-300 hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
               무료 체험 시작하기
             </button>
-            <button className="px-6 py-3 md:px-8 md:py-4 bg-white bg-opacity-20 text-white rounded-full text-lg md:text-xl font-bold shadow-lg hover:bg-opacity-30 hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+            <button
+              type="button"
+              className="px-6 py-3 md:px-8 md:py-4 bg-white bg-opacity-20 text-white rounded-full text-lg md:text-xl font-bold shadow-lg hover:bg-opacity-30 hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
               자세히 알아보기
             </button>
           </div>

@@ -1,3 +1,7 @@
+/**
+ * 관련 기획서:
+ * - /기획/ChromeAPI_기획.md
+ */
 const isLocalDevelopment = !chrome?.storage;
 
 /**

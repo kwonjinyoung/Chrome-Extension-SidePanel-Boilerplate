@@ -1,3 +1,7 @@
+/**
+ * 관련 기획서:
+ * - /기획/프로젝트_메인기획.md
+ */
 import type { AxiosRequestHeaders } from 'axios';
 import EventEmitter from 'eventemitter3';
 

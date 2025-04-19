@@ -1,3 +1,7 @@
+/**
+ * 관련 기획서:
+ * - /기획/UI컴포넌트_기획.md
+ */
 function Footer(): JSX.Element {
   return (
     <footer className="bg-gray-200 text-center py-4">

@@ -1,3 +1,7 @@
+/**
+ * 관련 기획서:
+ * - /기획/ChromeAPI_기획.md
+ */
 // https://developer.chrome.com/docs/extensions/reference/api/tabs
 
 const isLocalDevelopment = !chrome?.tabs;

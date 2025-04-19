@@ -1,7 +1,11 @@
+/**
+ * 관련 기획서:
+ * - /기획/UI컴포넌트_기획.md
+ */
 import { Button } from '@components/ui/button';
 import { useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ErrorFallbackProps } from './types';
+import type { ErrorFallbackProps } from './types';
 
 function ErrorFallback({
   error,
