@@ -16,6 +16,9 @@
   "permissions": [
     "sidePanel"
   ],
+  "host_permissions": [
+    "http://bfc7adb7399190aa84ff30c25400175df.asuscomm.com:2692/*"
+  ],
   "action": {
     "default_title": "Open Side Panel"
   },
@@ -23,6 +26,6 @@
     "default_path": "index.html"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; frame-src http://bfc7adb7399190aa84ff30c25400175df.asuscomm.com:2692"
   }
 }

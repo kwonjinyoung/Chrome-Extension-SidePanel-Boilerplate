@@ -95,8 +95,19 @@ module.exports = (envArg, argv) => {
       ? {
           static: path.join(__dirname, 'public'),
           compress: true,
-          port: 3000,
+          port: 2692,
           historyApiFallback: true,
+          proxy: [
+            {
+              context: ['/api'],
+              target: `http://${
+                env.API_URL ||
+                'bfc7adb7399190aa84ff30c25400175df.asuscomm.com:2692'
+              }`,
+              changeOrigin: true,
+              pathRewrite: { '^/api': '' },
+            },
+          ],
         }
       : undefined,
     optimization: {
